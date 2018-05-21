@@ -6,4 +6,4 @@ A protocol handler for magnet urls using the protocolloadfallbackhandler & webto
 
 This allows the usage of magnet URIs like any other URL. It's already usable but still incomplete.
 
-Example: https://jsfiddle.net/fhmqess3/
+Example: https://jsfiddle.net/fhmqess3/1/
