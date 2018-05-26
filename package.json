@@ -1,6 +1,6 @@
 {
   "name": "magnet-protocolhandler",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "protocol handler for magnet urls using webtorrent & protocolloadfallbackhandler",
   "scripts": {
     "build": "make clean all"
