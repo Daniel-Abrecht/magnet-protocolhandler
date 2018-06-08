@@ -1,6 +1,6 @@
 {
   "name": "magnet-protocolhandler",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "protocol handler for magnet urls using webtorrent & protocolloadfallbackhandler",
   "scripts": {
     "build": "make clean all"
@@ -13,7 +13,7 @@
   "author": "Daniel Abrecht",
   "license": "MIT",
   "files": [
-    "dist/*.js"
+    "dist/*"
   ],
   "browser": "dist/magnet-protocolhandler.js",
   "bugs": {
