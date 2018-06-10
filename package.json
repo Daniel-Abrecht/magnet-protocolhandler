@@ -1,9 +1,9 @@
 {
   "name": "magnet-protocolhandler",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "protocol handler for magnet urls using webtorrent & protocolloadfallbackhandler",
   "scripts": {
-    "build": "make clean all"
+    "build": "bin/build.js"
   },
   "repository": {
     "type": "git",
@@ -15,16 +15,17 @@
   "files": [
     "dist/*"
   ],
-  "browser": "dist/magnet-protocolhandler.js",
+  "browser": "dist/magnet-protocolhandler.min.js",
   "bugs": {
     "url": "https://github.com/Daniel-Abrecht/magnet-protocolhandler/issues"
   },
   "homepage": "https://github.com/Daniel-Abrecht/magnet-protocolhandler",
   "dependencies": {
     "webtorrent": ">=0.0.0",
-    "protocolloadfallbackhandler": ">=0.0.0"
+    "protocolloadfallbackhandler": ">=4.0.0"
   },
   "devDependencies": {
+    "fast-sourcemap-concat": "latest",
     "uglify-es": "latest"
   }
 }
